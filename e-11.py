@@ -6,8 +6,8 @@ def counter_sign(label):
     def count():
         global counter
         label.config(text = str(counter))
-        label.after(1000, count)
-        counter = counter + 1
+        label.after(100, count)
+        counter = counter + 0.1
     count()
 
 def center_mum(load):
@@ -29,3 +29,4 @@ def month():
     load.mainloop()
 while True:
     month()
+# Why did I create this?
