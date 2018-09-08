@@ -1,3 +1,4 @@
+# Why did I create this?
 import tkinter as tk
 import random as ran
 
@@ -29,4 +30,3 @@ def month():
     load.mainloop()
 while True:
     month()
-# Why did I create this?
