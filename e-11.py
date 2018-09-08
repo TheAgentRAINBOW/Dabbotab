@@ -5,7 +5,7 @@ counter = 0
 def counter_sign(label):
     def count():
         global counter
-        label.config(text = str(counter))
+        label.config(text = "%.2f" % counter)
         label.after(100, count)
         counter = counter + 0.1
     count()
