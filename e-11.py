@@ -1,6 +1,7 @@
 # Why did I create this?
 import tkinter as tk
 import random as ran
+import os
 
 counter = 0
 def counter_sign(label):
@@ -19,6 +20,7 @@ def center_mum(load):
     load.geometry('%dx%d+%d+%d' % (190, 99, x, y))
 
 def month():
+    os.system("ffplay -nodisp reet.mp3 & disown")
     load = tk.Tk()
     center_mum(load)
     load.title("I ran out of funny things to say.")
