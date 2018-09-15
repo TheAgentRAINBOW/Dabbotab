@@ -1,1 +1,1 @@
--e git://github.com/jackzhenguo/python-tk.git
+-e git://github.com/jackzhenguo/python-tk.git#egg=python-tk
